@@ -1,0 +1,62 @@
+# Ejercicio 1
+
+# Tomamos como 'numero1' complejo '1 + 2j'
+numero1 = 1 + 2j
+
+# Tomamos como 'numero2' complejo '5 + 10j'
+numero2 = 5 + 10j
+
+# Se suman los dos valores
+suma1y2 = numero1 + numero2
+
+print("Suma",suma1y2,)
+
+# Se restan los dos valores
+resta1y2 = numero2 - numero1
+
+print("Resta", resta1y2,)
+
+# Se multiplican los dos valores
+mult1y2 = numero1 * numero2
+
+print("Mutltiplicación", mult1y2,)
+
+# Se dividen los dos valores
+div1y2 = numero2 / numero1
+
+# Ejercicio 2
+# El 'print()' también nos permite mostrar varias variables a la vez como vemos en el ejemplo a continuación: 
+
+# definimos una variable llamada "nombre" de tipo *string*
+nombre = "Juan"
+
+# definimos una variable llamada "edad" de tipo int (número entero)
+edad = 30
+
+# definimos una variable llamada "peso" de tipo float (número decimal)
+peso = 75.5
+
+# definimos una variable llamada "altura" de tipo float (número decimal)
+altura = 1.75
+
+# mostramos por pantalla las variables definidas previamente junto con otro texto. 
+print("Hola me llamo", nombre, ",tengo", edad, "años, peso", peso, "kg y mido", altura, "m")
+
+#Ejercicio 3
+
+# vamos a definir nuestra primera variable de tipo integer, en este caso crearemos la variable 'cadena' que va a ser igual 10
+cadena = 10
+
+# comprobamos el tipo de dato de la variable 'cadena' usando la función 'type()' 
+tipo= type(cadena)
+
+# En combinación con la función 'print()'
+print("El tipo de dato de la variable cadena es:", type(cadena))
+
+# convertir a Entero: `int()`, el cual convierte un valor a entero. Si se trata de un número decimal, la parte decimal se trunca.
+# convertimos la variable a integer usando la función 'int()' 
+numero = int(cadena) + 1
+
+print(" El numero es", numero,)
+
+# Ejercicio 4 (Falta)
